@@ -1,0 +1,30 @@
+div.zazzle {
+	text-align: left;
+}
+div.zazzle br.zazzleClear {
+	clear: both;
+}
+/*
+	adjust for different image sizes:
+
+	'tiny'		=> '50',
+	'small'		=> '92', 
+	'medium'	=> '152',
+	'large'		=> '210',
+	'huge'		=> '328',
+*/
+div.zazzle.tiny div.zazzleProduct {
+	width: 50px;
+}
+div.zazzle.small div.zazzleProduct {
+	width: 92px;
+}
+div.zazzle.medium div.zazzleProduct {
+	width: 152px;
+}
+div.zazzle.large div.zazzleProduct {
+	width: 210px;
+}
+div.zazzle.huge div.zazzleProduct {
+	width: 328px;
+}

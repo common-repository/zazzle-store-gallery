@@ -1,0 +1,44 @@
+@import url('_master.css');
+
+
+
+div.zazzle div.zazzleProduct {
+	float: left;
+	overflow: hidden;
+	margin: 10px;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+
+div.zazzle div.zazzleImage { }
+
+div.zazzle div.zazzleProductInfo {
+	height: 80px;
+}
+
+div.zazzle div.zazzleTitle,
+div.zazzle div.zazzleDescription,
+div.zazzle div.zazzleArtist,
+div.zazzle div.zazzlePrice {
+	font-size: 10px;
+	line-height: 12px;
+	height: 24px;
+	margin-bottom: 2px;
+}
+
+div.zazzle div.zazzleDescription,
+div.zazzle div.zazzleTitle {
+	overflow: hidden;
+}
+
+div.zazzle div.zazzleArtist,
+div.zazzle div.zazzlePrice {
+	height: 12px;
+}
+
+div.zazzle div.zazzlePrice {
+
+}
+
+

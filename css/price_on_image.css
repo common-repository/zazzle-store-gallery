@@ -1,0 +1,25 @@
+@import url('_master.css');
+
+div.zazzle div.zazzleProduct {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+div.zazzle div.zazzleTitle,
+div.zazzle div.zazzleDescription,
+div.zazzle div.zazzleArtist {
+	display: none;
+}
+
+div.zazzle div.zazzleProduct div.zazzlePrice {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: black;
+	color: white;
+	padding: 1px 3px;
+}
